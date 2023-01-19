@@ -26,9 +26,9 @@ const Header = () => {
     : (document.body.style.overflow = "visible");
 
   return (
-    <header className="relative bg-white h-[60px] md:h-[80px] ">
+    <header className="fixed top-0 left-0 z-50 right-0 bg-white h-[60px] md:h-[80px] drop-shadow-sm px-4 md:px-6">
       {/* container */}
-      <div className="flex items-center justify-between h-full max-w-6xl mx-auto px-4 md:px-6 ">
+      <div className="flex items-center justify-between h-full max-w-6xl mx-auto  ">
         {/* logo */}
         <a href="#" className="shrink-0 max-w-[128px] md:max-w-none">
           <img src={Logo} alt="logo" />
@@ -49,7 +49,7 @@ const Header = () => {
         <div
           className={`${
             isMenuOpen ? "block" : "hidden"
-          } md:hidden fixed inset-x-0 top-[60px] bottom-0 bg-gradient-to-b from-dark-blue to-transparent opacity-90`}
+          } md:hidden fixed inset-x-0 top-[60px] h-[100vh] bg-gradient-to-b from-dark-blue to-transparent opacity-90 border`}
           aria-hidden="true"
         ></div>
 
@@ -64,7 +64,7 @@ const Header = () => {
               <a
                 href={link.url}
                 key={index}
-                className="nav-link text-lg md:text-grayish-blue md:hover:text-dark-blue text-dark-blue transition-colors hover:text-grayish-blue"
+                className="nav-link text-lg md:text-base md:text-grayish-blue md:hover:text-dark-blue text-dark-blue transition-colors hover:text-grayish-blue"
               >
                 {link.name}
               </a>
