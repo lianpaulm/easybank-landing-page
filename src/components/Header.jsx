@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Logo from "../assets/images/logo.svg";
-import navLinks from "../data";
+import { navLinks } from "../data";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -28,7 +28,7 @@ const Header = () => {
   return (
     <header className="fixed top-0 left-0 z-50 right-0 bg-white h-[60px] md:h-[80px] drop-shadow-sm px-4 md:px-6">
       {/* container */}
-      <div className="flex items-center justify-between h-full max-w-6xl mx-auto  ">
+      <div className="flex items-center justify-between h-full max-w-[1110px] mx-auto  ">
         {/* logo */}
         <a href="#" className="shrink-0 max-w-[128px] md:max-w-none">
           <img src={Logo} alt="logo" />
