@@ -7,17 +7,17 @@ const Showcase = () => {
       {/* container */}
       <div className="max-w-[1110px] mx-auto ">
         {/* heading */}
-        <div className="mb-[70px] md:text-left text-center">
-          <h2 className="xl:text-[2.5rem] md:text-[2.2rem] md:mb-5 mb-4 text-[2rem] leading-10 max-w-[250px] md:max-w-none mx-auto md:mx-0">
+        <div className="lg:mb-[72px] mb-[70px] md:text-left text-center">
+          <h2 className="xl:text-[2.5rem] md:text-[2.2rem] lg:mb-6 md:mb-5 mb-4 text-[2rem] leading-10 max-w-[250px] md:max-w-none mx-auto md:mx-0">
             Why choose Easybank?
           </h2>
-          <p className="xl:text-lg md:max-w-[610px] max-w-[350px] mx-auto md:mx-0">
+          <p className="xl:text-lg lg:max-w-[640px] md:max-w-[610px] max-w-[350px] mx-auto md:mx-0">
             We leverage Open Banking to turn your bank account into your
             financial hub. Control your finances like never before.
           </p>
         </div>
         {/* grid showcase */}
-        <div className="grid lg:grid-cols-[repeat(4,1fr)] md:grid-cols-[repeat(3,1fr)] gap-[38px] md:gap-x-[30px] md:gap-y-[40px] text-center md:text-left">
+        <div className="grid lg:grid-cols-[repeat(4,1fr)] md:grid-cols-[repeat(2,1fr)] gap-[38px] md:gap-[40px] lg:gap-[30px] text-center md:text-left">
           {showcaseItems.map((item, index) => {
             const { icon, title, text } = item;
             return (
@@ -30,7 +30,9 @@ const Showcase = () => {
                 <h3 className="text-[1.3rem] md:text-[1.5rem] mb-[18px] md:mb-[20px]">
                   {title}
                 </h3>
-                <p className="max-w-[350px] mx-auto md:mx-0">{text}</p>
+                <p className="max-w-[350px] md:max-w-none mx-auto md:mx-0">
+                  {text}
+                </p>
               </div>
             );
           })}
