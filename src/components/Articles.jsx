@@ -17,7 +17,7 @@ const Articles = () => {
             return (
               <div
                 key={index}
-                className="max-w-[350px] md:max-w-none mx-auto md:mx-0 bg-white"
+                className="max-w-[350px] md:max-w-none mx-auto md:mx-0 bg-white cursor-pointer"
               >
                 <img
                   src={image}
