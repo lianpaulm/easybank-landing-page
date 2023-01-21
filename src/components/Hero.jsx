@@ -23,16 +23,16 @@ const Hero = () => {
           <img
             src={mobileMockupsImg}
             alt="mobile mockups"
-            className="2xl:max-w-[760px] 2xl:top-[-15rem] xl:max-w-[680px] xl:left-[69px] xl:top-[-12rem] lg:top-[-8rem] lg:max-w-[560px] lg:left-[65px] md:top-[-6rem] md:max-w-[490px] md:left-[65px] md:bottom-[unset] md:translate-x-0 absolute max-w-[340px] bottom-0 left-[50%] translate-x-[-50%]"
+            className="2xl:max-w-[760px] 2xl:top-[-15rem] xl:max-w-[690px] xl:left-[65px] xl:top-[-12.5rem] lg:top-[-8rem] lg:max-w-[560px] lg:left-[65px] md:top-[-6rem] md:max-w-[490px] md:left-[65px] md:bottom-[unset] md:translate-x-0 absolute max-w-[340px] bottom-0 left-[50%] translate-x-[-50%]"
           />
         </div>
 
         {/* hero text */}
         <div className="z-10 lg:mt-[70px] md:mt-[50px] md:text-left md:mb-0 mb-[80px] text-center ">
-          <h1 className="lg:text-[56px] lg:leading-[64px] lg:mb-4 md:text-5xl md:leading-[54px] md:max-w-[450px] max-w-[360px] mx-auto md:mx-0 text-[2.6rem] leading-[44px] mb-5 ">
+          <h1 className="font-[300] xl:text-[56px] xl:leading-[64px] lg:mb-4 md:text-5xl md:leading-[54px] md:max-w-[450px] max-w-[360px] mx-auto md:mx-0 text-[2.6rem] leading-[44px] mb-5 ">
             Next generation digital banking
           </h1>
-          <p className="lg:text-lg lg:mb-8 mb-7 md:max-w-[450px] max-w-[350px] mx-auto md:mx-0">
+          <p className="xl:text-lg lg:mb-8 mb-7 md:max-w-[450px] max-w-[350px] mx-auto md:mx-0">
             Take your financial life online. Your Easybank account will be a
             one-stop-shop for spending, saving, budgeting, investing, and much
             more.

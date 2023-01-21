@@ -8,10 +8,10 @@ const Showcase = () => {
       <div className="max-w-[1110px] mx-auto ">
         {/* heading */}
         <div className="mb-[70px] md:text-left text-center">
-          <h2 className="lg:text-[2.5rem] md:text-4xl md:mb-5 mb-4 text-[2rem] leading-10 max-w-[250px] md:max-w-none mx-auto md:mx-0">
+          <h2 className="xl:text-[2.5rem] md:text-[2.2rem] md:mb-5 mb-4 text-[2rem] leading-10 max-w-[250px] md:max-w-none mx-auto md:mx-0">
             Why choose Easybank?
           </h2>
-          <p className="lg:text-lg  md:max-w-[610px] max-w-[350px] mx-auto md:mx-0">
+          <p className="xl:text-lg md:max-w-[610px] max-w-[350px] mx-auto md:mx-0">
             We leverage Open Banking to turn your bank account into your
             financial hub. Control your finances like never before.
           </p>
