@@ -3,10 +3,10 @@ import { articles } from "../data";
 
 const Articles = () => {
   return (
-    <section className="px-4 py-[70px] md:px-[24px] md:py-[90px] xl:py-[115px]">
+    <section className="px-4 py-[70px] md:px-[24px] md:py-[90px] xl:py-[98px] ">
       {/* container */}
       <div className="max-w-[1110px] mx-auto ">
-        <h2 className="xl:text-[2.5rem] md:text-[2.2rem] lg:mb-[55px] mb-[35px] text-[2rem] leading-10 text-center md:text-left">
+        <h2 className="xl:text-[2.3rem] md:text-[2.2rem] lg:mb-[50px] mb-[35px] text-[2rem] leading-10 text-center md:text-left">
           Latest Articles
         </h2>
 
@@ -17,7 +17,7 @@ const Articles = () => {
             return (
               <div
                 key={index}
-                className="max-w-[350px] md:max-w-none mx-auto md:mx-0 bg-white cursor-pointer"
+                className="max-w-[350px] md:max-w-none mx-auto md:mx-0 bg-white cursor-pointer rounded-[4px] overflow-hidden"
               >
                 <img
                   src={image}
