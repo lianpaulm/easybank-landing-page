@@ -26,9 +26,9 @@ const Articles = () => {
                 />
                 <div className="lg:p-[25px] p-[30px] ">
                   <p className="text-[.7rem] mb-[.4rem]">By {author}</p>
-                  <h4 className="lg:text-[1rem] leading-5 md:text-[1.1rem] mb-[10px] md:mb-[12px]">
+                  <h3 className="lg:text-[1rem] leading-5 md:text-[1.1rem] mb-[10px] md:mb-[12px]">
                     {title}
-                  </h4>
+                  </h3>
                   <p className="text-[.8rem] md:text-[.78rem]">{text}</p>
                 </div>
               </div>
